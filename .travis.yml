@@ -1,0 +1,23 @@
+language: node_js
+
+node_js:
+  - '10.10.0'
+
+sudo: required
+
+cache:
+  directories:
+  - node_modules
+
+before_script:
+  - npm install -g firebase-tools
+
+script:
+  - echo "Yay!"
+
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
+  on:
+    branch: master
