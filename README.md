@@ -22,3 +22,4 @@ tasks to complete
 - remove contact tab from nav bars
 - update information in footer in about
 - make social media links in foot open in new tab
+- add site meta tags
