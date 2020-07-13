@@ -111,7 +111,8 @@
 		$('.carousel-team').owlCarousel({
 			autoplay: true,
 			autoHeight: true,
-			items:1,
+			items:3,
+			loop: true,
 			margin: 30,
 			stagePadding: 0,
 			nav: false,
@@ -125,7 +126,7 @@
 					items: 3
 				},
 				1000:{
-					items: 4
+					items: 3
 				}
 			}
 		});
