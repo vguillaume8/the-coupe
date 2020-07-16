@@ -7,3 +7,4 @@ website
 - create facebook
 - have him create firebase project
 - host project on there
+- origianl joe photo
