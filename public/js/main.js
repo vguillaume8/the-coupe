@@ -1,3 +1,13 @@
+
+// This is to address carousel shaping oddly in
+// instagram safari preview
+// https://stackoverflow.com/questions/44291597/facebook-instagram-and-twitter-browsers-not-returning-proper-viewport-height
+
+viewportUnitsBuggyfill.init({
+  force: true, // use for debug on desktop
+  refreshDebounceWait: 300 // good for performance
+});
+
  AOS.init({
  	duration: 800,
  	easing: 'slide'
