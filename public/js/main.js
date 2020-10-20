@@ -121,7 +121,7 @@ viewportUnitsBuggyfill.init({
 		$('.carousel-team').owlCarousel({
 			autoplay: true,
 			autoHeight: true,
-			items:3,
+			items:2,
 			loop: true,
 			margin: 30,
 			stagePadding: 0,
@@ -130,13 +130,13 @@ viewportUnitsBuggyfill.init({
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
-					items: 1
+					items: 1,
 				},
 				600:{
-					items: 3
+					items: 2
 				},
 				1000:{
-					items: 3
+					items: 2
 				}
 			}
 		});
